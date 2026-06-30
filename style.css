@@ -1,0 +1,155 @@
+@import url('https://googleapis.com');
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    min-height: 200dvh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}   
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 35px;
+    font-weight: 700;
+    font-size: 18px;
+    align-self: flex-start;
+}
+
+.hero-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.hero-secondary-text-header-link-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+nav {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    padding: 24px 192px;
+}
+
+.top-section,footer {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    padding: 96px 192px;
+}
+
+.information-section,.call-to-action {
+    display: flex;
+    align-items: center;
+    padding: 96px 192px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 192px;
+    background-color: #e5e7eb;
+}
+
+nav .hero-logo {
+    flex: 1;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+main > * {
+    flex: 1;
+}
+
+.top-section{
+    gap: 40px;
+}
+
+.top-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top-text h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.image-placeholder {
+    flex: 1;
+    background-color: #667480;
+    align-self: stretch;
+    display: grid;
+    place-items: center;
+
+}
+
+.information-section {
+    flex-direction: column;
+    gap: 24px;
+}
+
+.information-section h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.bluebox {
+    box-sizing: border-box;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.info-imgs {
+    display: flex;
+    gap: 50px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+li .hero-secondary-text-header-link-text {
+    text-align: center;
+    color: darkgrey;
+    width: 150px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300 !important;
+}
