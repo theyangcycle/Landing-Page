@@ -1,11 +1,11 @@
-@import url('https://googleapis.com');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 
 body {
     display: flex;
     flex-direction: column;
     margin: 0px;
     font-family: 'Roboto', sans-serif;
-    min-height: 200dvh;
+    min-height: 100dvh;
 }
 
 main {
@@ -44,14 +44,14 @@ button {
     color: #e5e7eb;
 }
 
-nav {
+nav, footer {
     display: flex;
     background-color: #1f2937;
     align-items: center;
     padding: 24px 192px;
 }
 
-.top-section,footer {
+.top-section {
     display: flex;
     background-color: #1f2937;
     align-items: center;
@@ -151,5 +151,34 @@ li .hero-secondary-text-header-link-text {
 .quote-text {
     font-size: 36px;
     color: #1f2937;
-    font-weight: 300 !important;
+    font-weight: 300
+}
+
+.other {
+    align-self: flex-end;
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 700
+}
+
+.bluer-box {
+    background-color: #3882f6;
+    display: flex;
+    flex: 1;
+    border-radius: 10px;
+    padding: 60px 96px;
+}
+
+.call-text {
+    flex: 1;
+}
+
+.call-to-action button {
+    border: 3px solid #f9faf8;
+}
+
+footer {
+    box-sizing: border-box;
+    height: 76px;
+    justify-content: center;
 }
